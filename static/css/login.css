@@ -1,0 +1,58 @@
+/* Style for the login form wrapper */
+.login-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #cd3535; */
+  }
+  
+  /* Style for the login form container */
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the input fields in login.html */
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #626262;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button in login.html */
+  form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .login-form-wrapper {
+      height: auto;
+    }
+    .login-form-container {
+      width: 90%;
+    }
+  }
+  body {
+    background: linear-gradient(to  right, #000000,  #443a3a)
+ /* background: linear-gradient(to bottom right, #08daff, #06ffbd, #71e0ff, #7ce6f8, #00d0ff); */
+   
+  }
+  
+  
